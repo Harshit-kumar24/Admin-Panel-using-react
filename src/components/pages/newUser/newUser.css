@@ -1,0 +1,66 @@
+.newUser{
+    margin-top: 30px;
+    margin-left: 20px;
+    flex:4;
+    color: white;
+}
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+.newUserItem{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+.newUserItem>label{
+    margin-bottom: 10px;
+    font-size: 17px;
+    font-weight: 600;
+    color: whitesmoke;
+}
+.newUserItem>input{
+    height: 22px;
+    padding: 12px;
+    border: 1px solid darkred;
+    background-color: #1a1a1a;
+    border-radius: 5px;
+}
+.newUserGender>input{
+        margin-top: 16px;
+        margin-right: 4px;
+}
+.newUserGender>label{
+    color: whitesmoke;
+    margin-right: 7px;
+}
+.newUserSelect{
+    color: whitesmoke;
+    background-color: #1a1a1a;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid darkred;
+}
+input[type = "radio"]{
+    accent-color:darkred;
+}
+option{
+    background-color: #1a1a1a;
+}
+option:hover{
+    background-color: darkred;
+}
+.newUserButton{
+    margin-top: 20px;
+    width: 270px;
+    border: none;
+    background-color: darkred;
+    color: white;
+    border-radius: 8px;
+    padding:7px 10px;
+    font-weight: 600;
+    font-size: 16px;
+    cursor: pointer;
+}
